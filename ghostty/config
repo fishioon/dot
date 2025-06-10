@@ -1,0 +1,11 @@
+# Fonts
+font-family = "MonaspiceNe"
+font-size = 15
+
+# Theme
+macos-titlebar-style = hidden
+#macos-titlebar-style = tabs
+window-padding-color=extend
+#window-padding-balance=true
+
+keybind = global:cmd+/=toggle_quick_terminal

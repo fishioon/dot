@@ -1,0 +1,21 @@
+[user]
+	name = ifish
+	email = fishioon@live.com
+[includeIf "gitdir:~/dev/"]
+	path = ~/.config/work/gitconfig
+[alias]
+	root = rev-parse --show-toplevel
+	st = status -sb
+	p = push
+	co = checkout
+	c = commit --short
+[credential]
+	helper = osxkeychain
+[pull]
+	rebase = false
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
+[rebase]
+	autoStash = true
