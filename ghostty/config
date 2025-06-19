@@ -8,4 +8,4 @@ macos-titlebar-style = hidden
 window-padding-color=extend
 #window-padding-balance=true
 
-keybind = global:cmd+/=toggle_quick_terminal
+keybind = global:cmd+.=toggle_quick_terminal
